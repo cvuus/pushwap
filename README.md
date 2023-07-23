@@ -32,3 +32,15 @@ it that can't be executed won't.
 | `rrr` | reverse rotate a + reverse rotate b | both `rra` and `rrb`                                   |
 
 ## My version of the algorithm
+
+## Efficiency
+
+My push_swap sorts
+
+    3 numbers with maximum 3 instructions,
+    4 numbers with maximum 7 instructions,
+    5 numbers with maximum 11 instructions,
+    100 numbers with maximum 700 instructions => 5/5 points,
+    500 numbers with maximum 5000 instructions => 5/5 points.
+
+The algorith is good enought to pass the project. If the Bonus part is also done the project could get more than 105%.
