@@ -44,19 +44,24 @@ Before starting the algorithm  Stack A is indexed with the "true" indexes of all
 
 1. Pivot element is defined. 
     size < 300 list splitted in 4 parts
-    size > 300 list spliited in 7 part
+    size > 300 list spliited in 7 parts
    
-3. All elements in list > pivot element are pusehd to B
+2. All elements in list > pivot element are pusehd to B
     element > pivot/2 pushed to the top of Stack B
     element < pivot/2 pushed to the bottom of Stack B
    
-5. If Stack A contais more than 5 element 1 & 2 is repeated
+3. If Stack A contais more than 5 element 1 & 2 is repeated
+
+
+4. If Stack A contains less than 5 elements, list A is sorted
+
    
-7. If Stack A contains less than 5 elements, list A is sorted
-   
-9. Stack B finds the next smallest element either at the top or bottom and pushes it to Stack A
-10. 
-11. Repeat until Stack B is empty and A is sorted
+5. If Stack A contains less than 5 elements, list A is sorted
+
+6. Stack B finds the next smallest element either at the top or bottom and pushes it to Stack A
+
+7. Repeat until Stack B is empty and A is sorted
+
 
 
 
