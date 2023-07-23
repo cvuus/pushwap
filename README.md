@@ -33,6 +33,9 @@ it that can't be executed won't.
 
 ## My version of the algorithm
 
+First, all the numbers in stack A are indexed according to their real index in the sorted list afterwards.
+Then dependent on the size of the list tje
+
 ## Efficiency
 
 My push_swap sorts
