@@ -46,4 +46,4 @@ My push_swap sorts
     100 numbers with maximum 700 instructions => 5/5 points,
     500 numbers with maximum 5000 instructions => 5/5 points.
 
-The algorith is good enought to pass the project. If the Bonus part is also done the project could get more than 105%.
+The algorithm passes the mandatory part with maximum number of points.
