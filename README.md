@@ -31,10 +31,34 @@ it that can't be executed won't.
 | `rrb` | reverse rotate b                    | shifts all elements of stack b from top to bottom      |
 | `rrr` | reverse rotate a + reverse rotate b | both `rra` and `rrb`                                   |
 
+
+## Data Strucutre
+Stack A and B are represented as a circular linked list where the tail points to the head.
+Thus, implementing commands like rotate and reverse rotate is fascillitated.
+
+
 ## My version of the algorithm
 
-First, all the numbers in stack A are indexed according to their real index in the sorted list afterwards.
-Then dependent on the size of the list tje
+The algorithm is based on a QuickSort algorithm and until Stack A is small enough to be sorted efficiently.
+Before starting the algorithm  Stack A is indexed with the "true" indexes of all values in list.
+
+1. Pivot element is defined. 
+    size < 300 list splitted in 4 parts
+    size > 300 list spliited in 7 part
+   
+3. All elements in list > pivot element are pusehd to B
+    element > pivot/2 pushed to the top of Stack B
+    element < pivot/2 pushed to the bottom of Stack B
+   
+5. If Stack A contais more than 5 element 1 & 2 is repeated
+   
+7. If Stack A contains less than 5 elements, list A is sorted
+   
+9. Stack B finds the next smallest element either at the top or bottom and pushes it to Stack A
+10. 
+11. Repeat until Stack B is empty and A is sorted
+
+
 
 ## Efficiency
 
